@@ -235,10 +235,12 @@ export function HeroSection() {
             className="flex flex-wrap justify-center gap-x-[0.06em]"
           >
             {[
-              { char: "A", id: "first-A" },
-              { char: "L", id: "first-L" },
-              { char: "E", id: "first-E" },
-              { char: "X", id: "first-X" },
+              { char: "N", id: "first-A" },
+              { char: "I", id: "first-L" },
+              { char: "Y", id: "first-E" },
+              { char: "A", id: "first-X" },
+              { char: "T", id: "first-T" },
+              { char: "I", id: "first-I2" },
             ].map(({ char, id }, i) => (
               <motion.span
                 key={id}
@@ -266,12 +268,10 @@ export function HeroSection() {
             className="flex flex-wrap justify-center gap-x-[0.06em] -mt-2"
           >
             {[
-              { char: "R", id: "last-R" },
-              { char: "I", id: "last-I" },
-              { char: "V", id: "last-V" },
-              { char: "E", id: "last-E" },
-              { char: "R", id: "last-R2" },
-              { char: "A", id: "last-A" },
+              { char: "S", id: "last-R" },
+              { char: "H", id: "last-I" },
+              { char: "A", id: "last-V" },
+              { char: "H", id: "last-E" },
             ].map(({ char, id }, i) => (
               <motion.span
                 key={id}

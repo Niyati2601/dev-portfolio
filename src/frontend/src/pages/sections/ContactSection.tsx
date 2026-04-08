@@ -6,8 +6,7 @@ import {
   Loader2,
   Mail,
   MapPin,
-  Send,
-  Twitter,
+  Send
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useId, useRef, useState } from "react";
@@ -28,31 +27,31 @@ const CONTACT_METHODS = [
   {
     Icon: Mail,
     label: "Email",
-    value: "alex@alexrivera.dev",
-    href: "mailto:alex@alexrivera.dev",
+    value: "shahniyati260103@gmail.com",
+    href: "mailto:shahniyati260103@gmail.com",
     color: "from-[oklch(0.96_0.06_25)] to-[oklch(0.93_0.04_30)]",
     iconColor: "text-primary",
   },
   {
     Icon: Github,
     label: "GitHub",
-    value: "github.com/alexrivera",
-    href: "https://github.com/alexrivera",
+    value: "github.com/Niyati2601",
+    href: "https://github.com/Niyati2601",
     color: "from-[oklch(0.96_0.02_260)] to-[oklch(0.93_0.015_260)]",
     iconColor: "text-foreground",
   },
   {
     Icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/alexrivera",
-    href: "https://linkedin.com/in/alexrivera",
+    value: "linkedin.com/in/shah-niyati-b26004209",
+    href: "https://www.linkedin.com/in/shah-niyati-b26004209",
     color: "from-[oklch(0.94_0.06_230)] to-[oklch(0.91_0.04_230)]",
     iconColor: "text-[oklch(0.55_0.14_240)]",
   },
   {
     Icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Ahmedabad, India",
     href: undefined,
     color: "from-[oklch(0.96_0.06_140)] to-[oklch(0.93_0.04_140)]",
     iconColor: "text-secondary",
@@ -62,21 +61,15 @@ const CONTACT_METHODS = [
 const SOCIAL_LINKS = [
   {
     Icon: Github,
-    href: "https://github.com/alexrivera",
-    label: "Alex Rivera on GitHub",
+    href: "https://github.com/Niyati2601",
+    label: "Niyati Shah on GitHub",
     id: "github",
   },
   {
     Icon: Linkedin,
-    href: "https://linkedin.com/in/alexrivera",
-    label: "Alex Rivera on LinkedIn",
+    href: "https://www.linkedin.com/in/shah-niyati-b26004209",
+    label: "Niyati Shah on LinkedIn",
     id: "linkedin",
-  },
-  {
-    Icon: Twitter,
-    href: "https://twitter.com/alexrivera",
-    label: "Alex Rivera on Twitter",
-    id: "twitter",
   },
 ];
 

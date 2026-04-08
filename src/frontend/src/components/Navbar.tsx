@@ -77,17 +77,17 @@ export function Navbar() {
         <a
           href="/"
           className="group flex items-center gap-2"
-          aria-label="Alex Rivera — Full Stack Developer, return to top"
+          aria-label="Niyati Shah — Full Stack Developer, return to top"
         >
           {/* Playful monogram */}
           <span
             className="flex items-center justify-center w-9 h-9 rounded-xl gradient-primary text-white font-display font-black text-base leading-none shadow-subtle transition-smooth group-hover:scale-110 group-hover:rotate-3"
             aria-hidden="true"
           >
-            AR
+            NS
           </span>
           <span className="font-display font-bold text-lg gradient-text hidden sm:inline-block">
-            Alex Rivera
+            Niyati Shah
           </span>
         </a>
 
@@ -140,7 +140,7 @@ export function Navbar() {
                 AR
               </span>
               <span className="font-display font-bold text-lg gradient-text">
-                Alex Rivera
+                Niyati Shah
               </span>
             </div>
             <nav

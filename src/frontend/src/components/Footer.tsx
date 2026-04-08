@@ -56,7 +56,7 @@ export function Footer() {
             <a
               href="/"
               className="group flex items-center gap-2 w-fit"
-              aria-label="Alex Rivera — return to top"
+              aria-label="Niyati Shah — return to top"
             >
               <span
                 className="flex items-center justify-center w-9 h-9 rounded-xl gradient-primary text-white font-display font-black text-base leading-none transition-smooth group-hover:scale-110 group-hover:rotate-3"

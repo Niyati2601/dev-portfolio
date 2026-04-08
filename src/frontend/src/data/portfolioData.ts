@@ -7,12 +7,12 @@ import type {
 } from "../types/portfolio";
 
 export const developerInfo = {
-  name: "Alex Rivera",
+  name: "Niyati Shah",
   title: "Full Stack Developer",
   tagline: "Building modern, scalable web experiences with code and design.",
   bio: "I'm a passionate Full Stack Developer with 5+ years of experience crafting end-to-end solutions across the web stack. My expertise spans Angular, React, .NET Core, and Node.js—with a special focus on Microsoft Power Platform for enterprise automation. I care deeply about clean architecture, developer experience, and shipping products that users actually love.",
-  location: "San Francisco, CA",
-  email: "alex@alexrivera.dev",
+  location: "Ahmedabad, India",
+  email: "shahniyati260103@gmail.com",
   resumeUrl: "#",
   avatarUrl: "/assets/generated/avatar-developer-transparent.dim_200x200.png",
 };
@@ -210,20 +210,14 @@ export const blogPosts: BlogPost[] = [
 export const socialLinks: SocialLink[] = [
   {
     platform: "GitHub",
-    url: "https://github.com/alexrivera",
-    ariaLabel: "Alex Rivera on GitHub",
+    url: "https://github.com/Niyati2601",
+    ariaLabel: "Niyati Shah on GitHub",
     icon: "github",
   },
   {
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/alexrivera",
-    ariaLabel: "Alex Rivera on LinkedIn",
+    url: "https://www.linkedin.com/in/shah-niyati-b26004209",
+    ariaLabel: "Niyati Shah on LinkedIn",
     icon: "linkedin",
-  },
-  {
-    platform: "Twitter",
-    url: "https://twitter.com/alexrivera_dev",
-    ariaLabel: "Alex Rivera on Twitter",
-    icon: "twitter",
-  },
+  }
 ];

@@ -72,7 +72,7 @@ function ProjectJsonLd({ project }: { project: Project }) {
     programmingLanguage: project.techStack,
     author: {
       "@type": "Person",
-      name: "Alex Rivera",
+      name: "Niyati Shah",
       url: "https://alexrivera.dev",
     },
   });
